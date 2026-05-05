@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creative Artist Portfolio</title>
+
+
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'typewriter';
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #e86a8b;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+    background: #f6d4dc;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.hero img {
+    width: 200px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #e86a8b;
+    letter-spacing: 8px;
+    margin-top: 10px;
+}
+
+.hero p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* SECTION TITLE */
+.section-title {
+    background: #e86a8b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* ABOUT */
+.about {
+    background: #f6d4dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+.about img {
+    width: 200px;
+}
+
+.about-text {
+    max-width: 300px;
+    font-size: 13px;
+}
+
+/* PROJECTS */
+.projects {
+    background: #f6d4dc;
+    padding: 40px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #e86a8b;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+}
+
+.card p {
+    font-size: 12px;
+}
+
+/* CONTACT */
+.contact {
+    background: #f6d4dc;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-left {
+    font-size: 14px;
+}
+
+.contact-left p {
+    margin-bottom: 10px;
+}
+
+.contact img {
+    width: 250px;
+}
+
+/* FOOTER TEXT */
+.footer-text {
+    font-size: 40px;
+    text-align: right;
+    padding: 20px;
+    color: #999;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="nav-container">
+
+      
+        <!-- NAV LINKS -->
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <p>Since You're Here, I'm Khai</p>
+
+    <!-- REPLACE IMAGE -->
+    <img src="khai02.png" alt="Profile">
+
+    <h1>CREATIVE<br>ARTIST</h1>
+</div>
+
+<!-- ABOUT TITLE -->
+<div class="section-title">ABOUT ME</div>
+
+<!-- ABOUT -->
+<div class="about" id="about">
+
+    <!-- REPLACE IMAGE -->
+    <img src="khai01.png" alt="About Image">
+
+    <div class="about-text">
+        <p>I am a passionate and creative artist who loves expressing ideas through visual design and storytelling.</p>
+        <br>
+        <p>I create digital graphics, portraits, videos, and photography that connect with people and inspire creativity.</p>
+    </div>
+</div>
+
+<!-- PROJECTS TITLE -->
+<div class="section-title">PROJECTS</div>
+
+<!-- PROJECTS -->
+<div class="projects" id="projects">
+    <div class="project-grid">
+
+        <div class="card">
+            <img src="portrait.jpg">
+            <h3>PORTRAIT ART</h3>
+            <p>I create realistic and artistic portraits with attention to detail and emotion.</p>
+        </div>
+
+        <div class="card">
+            <img src="edit.jpg">
+            <h3>DIGITAL ART</h3>
+            <p>Creative digital illustrations using modern tools and imagination.</p>
+        </div>
+
+        <div class="card">
+            <img src="cine.jpg">
+            <h3>VIDEO EDITING</h3>
+            <p>Editing videos with smooth transitions and storytelling.</p>
+        </div>
+
+        <div class="card">
+            <img src="film.jpg">
+            <h3>VIDEOGRAPHY</h3>
+            <p>Capturing moments and creating cinematic visuals.</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- CONTACT TITLE -->
+<div class="section-title">CONTACT ME</div>
+
+<!-- CONTACT -->
+<div class="contact" id="contact">
+
+    <div class="contact-left">
+        <p> khrylfaderagao@gmail.com</p>
+        <p> @mnott.khy</p>
+        <p> kharyfaderagao</p>
+    </div>
+
+ 
+</div>
+
+<div class="footer-text">
+
+</div>
+
+</body>
+</html>
